@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="400dp"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/details"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Last Date Of Submission :"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/ld"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="00"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="#00FFCB"
+            android:id="@+id/s1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="23dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:textSize="22sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="#00FFCB"
+            android:id="@+id/s2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Submissions"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="23dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:textSize="22sp"/>
+
+
+    </FrameLayout>
+</LinearLayout>

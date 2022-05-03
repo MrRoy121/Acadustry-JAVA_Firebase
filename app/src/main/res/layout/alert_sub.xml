@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Marks Given by Teacher :"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/mark"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingStart="15dp"
+            android:layout_height="wrap_content"
+            android:text="213"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Comments Given by Teacher :"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/tcom"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingStart="15dp"
+            android:layout_height="wrap_content"
+            android:text="2fdffffffffffffffffffffffffffffffffffffffffffff13"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Ratings Given by Industry :"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/rate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingStart="15dp"
+            android:layout_height="wrap_content"
+            android:text="213"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Comments Given by Industry :"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/icom"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingStart="15dp"
+            android:layout_height="wrap_content"
+            android:text="2fdffffffffffffffffffffffffffffffffffffffffffff13"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+</LinearLayout>

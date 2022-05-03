@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/add.xml" value="0.17407407407407408" />
+        <entry key="app/src/main/res/drawable/circle.xml" value="0.18425925925925926" />
+        <entry key="app/src/main/res/drawable/drive.xml" value="0.21333333333333335" />
+        <entry key="app/src/main/res/drawable/file.xml" value="0.21333333333333335" />
+        <entry key="app/src/main/res/drawable/grad1.xml" value="0.21333333333333335" />
+        <entry key="app/src/main/res/drawable/grad2.xml" value="0.21333333333333335" />
+        <entry key="app/src/main/res/drawable/gradient.xml" value="0.21666666666666667" />
+        <entry key="app/src/main/res/drawable/logout.xml" value="0.21333333333333335" />
+        <entry key="app/src/main/res/drawable/menu.xml" value="0.21666666666666667" />
+        <entry key="app/src/main/res/drawable/new_fold.xml" value="0.1787037037037037" />
+        <entry key="app/src/main/res/drawable/noti.xml" value="0.18425925925925926" />
+        <entry key="app/src/main/res/drawable/search.xml" value="0.18425925925925926" />
+        <entry key="app/src/main/res/drawable/send.xml" value="0.17407407407407408" />
+        <entry key="app/src/main/res/drawable/submit_button_01.xml" value="0.18888888888888888" />
+        <entry key="app/src/main/res/drawable/submit_button_02.xml" value="0.18888888888888888" />
+        <entry key="app/src/main/res/drawable/textfield.xml" value="0.21666666666666667" />
+        <entry key="app/src/main/res/drawable/userimg.xml" value="0.18425925925925926" />
+        <entry key="app/src/main/res/layout-v23/activity_main.xml" value="0.20052083333333334" />
+        <entry key="app/src/main/res/layout/activity_cls_job_list.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_cls_list.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_cls_room.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/activity_cls_room_job.xml" value="0.20052083333333334" />
+        <entry key="app/src/main/res/layout/activity_indust_profile.xml" value="0.18541666666666667" />
+        <entry key="app/src/main/res/layout/activity_indust_regi.xml" value="0.20052083333333334" />
+        <entry key="app/src/main/res/layout/activity_indust_submission.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.20052083333333334" />
+        <entry key="app/src/main/res/layout/activity_post.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_stud_profile.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_stud_regi.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_stud_submissions.xml" value="0.18541666666666667" />
+        <entry key="app/src/main/res/layout/activity_submission2.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_submissions.xml" value="0.14" />
+        <entry key="app/src/main/res/layout/activity_submit.xml" value="0.20052083333333334" />
+        <entry key="app/src/main/res/layout/activity_submit2.xml" value="0.20052083333333334" />
+        <entry key="app/src/main/res/layout/activity_teach_profile.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_teach_regi.xml" value="0.20052083333333334" />
+        <entry key="app/src/main/res/layout/activity_teach_room_create.xml" value="0.20052083333333334" />
+        <entry key="app/src/main/res/layout/activity_teacher_cls_list.xml" value="0.20052083333333334" />
+        <entry key="app/src/main/res/layout/activity_teacher_cls_room.xml" value="0.20052083333333334" />
+        <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/alert_bar.xml" value="0.20052083333333334" />
+        <entry key="app/src/main/res/layout/alert_label.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/alert_sub.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/file_list.xml" value="0.20052083333333334" />
+        <entry key="app/src/main/res/layout/job_details.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/job_details2.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/list_item.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/message_list.xml" value="0.2534142640364188" />
+        <entry key="app/src/main/res/layout/post_job.xml" value="0.20052083333333334" />
+        <entry key="app/src/main/res/layout/post_job_list.xml" value="0.20052083333333334" />
+        <entry key="app/src/main/res/layout/room_stud_list.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/row.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/std_list.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/stu_cls_list.xml" value="0.20052083333333334" />
+        <entry key="app/src/main/res/layout/stud_job_list.xml" value="0.20052083333333334" />
+        <entry key="app/src/main/res/layout/stud_room_list.xml" value="0.15462962962962962" />
+        <entry key="app/src/main/res/layout/submission_list.xml" value="0.20052083333333334" />
+        <entry key="app/src/main/res/layout/submit_list.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/teach_job.xml" value="0.20052083333333334" />
+        <entry key="app/src/main/res/layout/teach_job_list.xml" value="0.20052083333333334" />
+        <entry key="app/src/main/res/layout/teach_popup.xml" value="0.14" />
+        <entry key="app/src/main/res/layout/techer_room_list.xml" value="0.266260162601626" />
+        <entry key="app/src/main/res/layout/type_area.xml" value="0.20052083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

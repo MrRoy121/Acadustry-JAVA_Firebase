@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.projectsubmitter">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:icon="@drawable/logo"
+        android:label="Project"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity
+            android:name=".submission.indust_submission"
+            android:exported="false" />
+        <activity
+            android:name=".submission.submission2"
+            android:exported="true" />
+        <activity
+            android:name=".submission.submissions"
+            android:exported="true" />
+        <activity
+            android:name=".submission.stud_submissions"
+            android:exported="true" />
+        <activity
+            android:name=".submission.submit2"
+            android:exported="true" />
+        <activity
+            android:name=".classroom.cls_job_list"
+            android:exported="false" />
+        <activity
+            android:name=".submission.submit"
+            android:exported="false" />
+        <activity
+            android:name=".classroom.cls_list"
+            android:exported="false" />
+        <activity
+            android:name=".classroom.cls_room"
+            android:exported="false" />
+        <activity
+            android:name=".teach_room_create"
+            android:exported="false" />
+        <activity
+            android:name=".profile.stud_profile"
+            android:exported="false" />
+        <activity
+            android:name=".profile.teach_profile"
+            android:exported="false" />
+        <activity
+            android:name=".Post"
+            android:exported="false" />
+        <activity
+            android:name=".profile.indust_profile"
+            android:exported="false" />
+        <activity
+            android:name=".register.indust_regi"
+            android:exported="false" />
+        <activity
+            android:name=".register.teach_regi"
+            android:exported="false" />
+        <activity
+            android:name=".register.stud_regi"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

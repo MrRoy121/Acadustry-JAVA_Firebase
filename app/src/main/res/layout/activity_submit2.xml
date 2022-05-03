@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".submission.submit2">
+
+
+    <TextView
+        android:id="@+id/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="File Upload"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/main_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="File Upload"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+    <ImageButton
+        android:id="@+id/select_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_heading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/add" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/upload_list"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_below="@+id/select_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:id="@+id/mssg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/upload_list"
+        android:layout_marginStart="50dp"
+        android:text="Please Wait Until This"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/cmssg"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/upload_list"
+        android:layout_toEndOf="@+id/mssg"
+        android:src="@mipmap/progress" />
+
+    <TextView
+        android:id="@+id/cmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/upload_list"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/cmssg"
+        android:text="Turn into This"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/upload_list"
+        android:layout_toEndOf="@+id/cmsg"
+        android:src="@mipmap/checked" />
+
+</RelativeLayout>

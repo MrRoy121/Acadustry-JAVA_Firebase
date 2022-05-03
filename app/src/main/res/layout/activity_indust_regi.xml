@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#7AF8A0A0"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    tools:context=".register.indust_regi">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textSize="80sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textColor="#c0c0c0"
+            />
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="100dp"
+            android:background="#fff"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/regi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:text="Industry Register Form"
+                android:textColor="#000000"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/rname"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:backgroundTint="#8C8C8C"
+                android:hint="Company Name"
+                android:inputType="textPersonName"
+                android:textColor="#000"
+                android:textColorHint="#8C8C8C" />
+
+            <EditText
+                android:id="@+id/remail"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#8C8C8C"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="#000"
+                android:textColorHint="#8C8C8C" />
+
+            <EditText
+                android:id="@+id/rfield"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#8C8C8C"
+                android:hint="Field"
+                android:inputType="textEmailAddress"
+                android:textColor="#000"
+                android:textColorHint="#8C8C8C" />
+
+
+            <EditText
+                android:id="@+id/rpass"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#8C8C8C"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="#000"
+                android:textColorHint="#8C8C8C" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+
+                <CheckBox
+                    android:id="@+id/checkBox1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="7dp"
+                    android:buttonTint="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="2dp"
+                    android:text="I agree all statements in"
+                    android:textColor="#8C8C8C"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:text="Terms of service"
+                    android:textColor="#0098FF"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/register"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/submit_button_01"
+                android:text="Create Account"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="40dp"
+                    android:text="Already have an account?"
+                    android:textColor="#8C8C8C"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/signup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:text="Sign In"
+                    android:textColor="#0098FF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/blur"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#613A3A3A">
+
+        <ProgressBar
+            android:id="@+id/pbar"
+            android:layout_width="500dp"
+            android:layout_height="200dp" />
+
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linelayout"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="20dp"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#CBF1D8">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title :"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:textSize="16sp"/>
+
+
+        <TextView
+            android:id="@+id/ptitle"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="Job Title"
+            android:textStyle="bold"
+            android:layout_marginStart="40dp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Company Name :"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:textSize="16sp"/>
+
+
+        <TextView
+            android:id="@+id/pcname"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:layout_marginStart="40dp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/drive"
+        android:layout_gravity="right|center"
+        android:layout_marginEnd="10dp"/>
+</androidx.cardview.widget.CardView>
